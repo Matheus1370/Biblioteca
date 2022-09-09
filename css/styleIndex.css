@@ -1,0 +1,56 @@
+body{
+    margin: 0%;
+    background-color: rgba(128, 128, 128, 0.521);
+}
+
+#login{
+    width: 400px;
+    height: 300px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.445);
+    text-align: center;
+    padding: 50px;
+    border-radius: 2%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.678);
+}
+
+.inputs{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.inputs:focus{
+    outline: none;
+}
+
+.inputs::placeholder{
+    color: rgba(0, 0, 0, 0.562);
+}
+
+form{
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+label{
+    font-size: 20px;
+}
+
+#logar{
+    width: 60px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: rgba(201, 206, 206, 0.582);
+    border: 1px solid;
+    border-radius: 10%;
+    box-shadow: 3px 3px 5px  rgb(0, 0, 0);
+}
+
+#logar:hover{
+    background-color: rgba(0, 0, 0, 0.349);
+    color: rgba(240, 255, 255, 0.582);
+}

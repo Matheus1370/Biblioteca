@@ -1,0 +1,157 @@
+body{
+  margin: 0%;
+  background-color: rgba(0, 0, 0, 0.651);
+}
+
+#conteudo{
+  width: 1305px;
+  height: auto;
+  margin-top: 30px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#conteudo2{
+  width: 805px;
+  height: auto;
+  margin-top: 30px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#lista{
+  margin-top: 30px;
+  position: relative;
+  width: 800px;
+  height: 530px;
+  background-color: rgba(0, 0, 0, 0.377);
+  border-radius: 2%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#lista2{
+  margin-top: 10px;
+  position: relative;
+  width: 430px;
+  height: 320px;
+  background-color: rgba(0, 0, 0, 0.377);
+  border-radius: 2%;
+  display: inline-block;
+}
+
+#lista3{
+  margin-top: 10px;
+  position: relative;
+  width: 400px;
+  height: 320px;
+  background-color: rgba(0, 0, 0, 0.377);
+  border-radius: 2%;
+  display: inline-block;
+}
+
+.inputs{
+  position: absolute;
+}
+
+img{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+h3{
+  position: absolute;
+  width: 380px;
+  margin-left: 90%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+}
+
+h2{
+  position: absolute;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 200px;
+}
+
+#textos{
+  position: absolute;
+  font-size: 15px;
+  margin-left: 180px;
+  line-height: 20px;
+  margin-top: 30px;
+}
+
+#devolver{
+  position: absolute;
+  margin-left: 100px;
+  width: 180px;
+  height: 40px;
+  margin-top: 250px;
+  background-color: rgba(0, 0, 0, 0.212);
+  color: rgba(7, 7, 7, 0.733);
+  border: 2px solid rgba(0, 0, 0, 0.582);
+  border-radius: 4%;
+  transition: .5s;
+}
+
+#devolver:hover{
+  background-color: rgba(0, 0, 0, 0.349);
+  color: rgba(240, 255, 255, 0.582);
+}
+
+#email{
+  background-color: transparent;
+  width: 180px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 15px;
+}
+
+#email:focus{
+  text-decoration: none;
+  outline: none;
+}
+
+.meio{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.alt1{
+  width: 250px;
+  margin-top: 40px;
+}
+
+.alt1 .buttons2{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+input[type=text]{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+input[type=text]:focus{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.buttons2{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.616);
+    color: rgba(240, 248, 255, 0.664);
+    border: 0;
+}
+
+.buttons2:hover{
+    background-color: rgba(0, 0, 0, 0.493);
+    color: rgba(240, 248, 255, 0.747);
+    border: 1px solid ;
+}

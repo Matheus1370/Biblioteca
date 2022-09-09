@@ -1,0 +1,256 @@
+body{
+  background-color: rgba(0, 0, 0, 0.651);
+}
+
+.crudF{
+  width: 335px;
+}
+
+.crudC{
+  width: 245px;
+}
+
+.crudL{
+  width: 215px;
+}
+
+.crudE{
+  width: 260px;
+}
+
+input[type=text]{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+input[type=tel]{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+input[type=number]{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+select{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+option{
+  background-color: rgba(0, 0, 0, 0.507);
+}
+
+#conteudo{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.funcoes{
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.funcoes1{
+    width: 415px;
+}
+
+.funcoes2{
+    width: 315px;
+}
+
+.buttons2{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.616);
+    color: rgba(240, 248, 255, 0.664);
+    border: 0;
+}
+
+.buttons2:hover{
+    background-color: rgba(0, 0, 0, 0.493);
+    color: rgba(240, 248, 255, 0.747);
+    border: 1px solid ;
+}
+
+input:focus{
+    outline: none;
+}
+
+#alterImg{
+    position: absolute;
+    margin-left: 50px;
+}
+
+.label1{
+    margin-top: 300px;
+}
+
+.meio{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.cdt1{
+  width: 500px;
+}
+
+.cdt1 .buttons2{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.cdt4{
+  width: 300px;
+}
+
+.cdt4 .buttons2{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.alt1{
+  width: 250px;
+}
+
+.alt1 .buttons2{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.alt2{
+  width: 250px;
+}
+
+.alt2 .buttons2{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.alt3{
+  width: 290px;
+}
+
+.alt3 .buttons2{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.alterar1{
+  width: 490px;
+}
+
+.alterar1 .buttons2{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.alterar2{
+  width: 500px;
+}
+
+.alterar2 .buttons2{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.alterar3{
+  width: 500px;
+}
+
+.alterar3 .buttons2{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+}
+
+.alterarft3{
+  margin-left: 38%;
+}
+
+.alterarcp3{
+  margin-left: 28%;
+}
+
+.imagem1{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.alterar4{
+  width: 616px;
+}
+
+.alterar4 .buttons2{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.consulta1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 26.5%;
+}
+
+.consulta2{
+    margin-top: 20px;
+    margin-left: 52.5%;
+}
+
+.consulta3{
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.consulta {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: #49b1ee98;
+  }
+  
+  .consulta thead tr {
+    background-color: #133db1;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .consulta th,
+  .consulta td {
+    padding: 12px 15px;
+  }
+  
+  .consulta tbody tr {
+    border-bottom: 1px solid #046aa5;
+  }
+  
+  .consulta tbody tr:nth-of-type(even) {
+    background-color: #0353ccd0;
+  }
+  
+  .consulta tbody tr:last-of-type {
+    border-bottom: 2px solid #004798;
+  }
+  
+  .consulta tbody tr.active-row {
+    font-weight: bold;
+    color: #09c2f0;
+  }
+  
+  th{
+    text-align: center;
+  }

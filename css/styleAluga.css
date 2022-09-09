@@ -1,0 +1,87 @@
+body{
+  margin: 0%;
+  background-color: rgba(0, 0, 0, 0.651);
+}
+
+#lista{
+  margin-top: 30px;
+  width: 900px;
+  height: auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#lista2{
+  margin-top: 30px;
+  width: 222px;
+  height: auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.banner{
+  width: 220px;
+  height: 400px;
+  background-color: rgba(248, 226, 197, 0.514);
+  border: 1px rgba(0, 0, 0, 0.733) solid;
+  text-align: center;
+  margin-bottom: 30px;
+  color: black;
+  line-height: 30px;
+  display: inline-block;
+}
+
+#enviar{
+  width: 220px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.555);
+  border: none;
+  transition: .5s;
+}
+
+#enviar:hover{
+  background-color: rgba(22, 22, 22, 0.555);
+  border-top: 1px solid black;
+}
+
+.meio{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.alt1{
+  width: 250px;
+  margin-top: 40px;
+}
+
+.alt1 .buttons2{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+input[type=text]{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+input[type=text]:focus{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.buttons2{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.616);
+    color: rgba(240, 248, 255, 0.664);
+    border: 0;
+}
+
+.buttons2:hover{
+    background-color: rgba(0, 0, 0, 0.493);
+    color: rgba(240, 248, 255, 0.747);
+    border: 1px solid ;
+}

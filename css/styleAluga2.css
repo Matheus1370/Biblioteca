@@ -1,0 +1,72 @@
+body{
+  margin: 0%;
+  background-color: rgba(0, 0, 0, 0.651);
+}
+
+#lista{
+  margin-top: 30px;
+  position: relative;
+  width: 800px;
+  height: 580px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.377);
+  border-radius: 2%;
+}
+
+.inputs{
+  position: absolute;
+}
+
+img{
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+h1{
+  position: absolute;
+  width: 380px;
+  margin-left: 75%;
+  transform: translateX(-50%);
+  margin-top: 40px;
+}
+
+#textos{
+  position: absolute;
+  font-size: 25px;
+  margin-left: 410px;
+  line-height: 40px;
+  margin-top: 80px;
+}
+
+#alugar{
+  position: absolute;
+  margin-left: 460px;
+  width: 120px;
+  height: 40px;
+  margin-top: 480px;
+  background-color: rgba(0, 0, 0, 0.212);
+  color: rgba(7, 7, 7, 0.733);
+  border: 2px solid rgba(0, 0, 0, 0.582);
+  border-radius: 8%;
+  transition: .5s;
+}
+
+#alugar:hover{
+  background-color: rgba(0, 0, 0, 0.349);
+  color: rgba(240, 255, 255, 0.582);
+}
+
+#email{
+  background-color: transparent;
+  width: 280px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 15px;
+}
+
+#email:focus{
+  text-decoration: none;
+  outline: none;
+}
